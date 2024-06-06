@@ -5,26 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Maze Project: The Labyrinth</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/minima/2.5.1/styles.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, section { padding: 20px; }
+        header { background-color: #4CAF50; color: white; }
+        section { background-color: #f4f4f4; margin-bottom: 10px; }
+        .container { max-width: 800px; margin: auto; }
+        a { color: #4CAF50; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .cover { width: 100%; height: 300px; background-image: url('images/cover_image.jpg'); background-size: cover; background-position: center; }
+        .nav { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background: #333; color: white; }
+        .nav a { color: white; margin: 0 10px; }
+        .features { display: flex; justify-content: space-around; }
+        .feature { width: 30%; text-align: center; }
+        .feature img { width: 100%; height: auto; }
+        .about { padding: 20px; background: #fff; }
+    </style>
 </head>
 <body>
-    <header>
+    <header class="nav">
+        <div>The Maze Project</div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+    <section class="cover">
         <div class="container">
             <h1>The Maze Project: The Labyrinth</h1>
             <p>A thrilling 3D maze game developed using SDL2 and ray casting techniques.</p>
-        </div>
-    </header>
-    <section>
-        <div class="container">
-            <h2>About The Project</h2>
-            <p>The Maze Project, titled "The Labyrinth," is a thrilling 3D maze game developed using SDL2 and ray casting techniques. The project aims to transform a 2D map into an immersive 3D environment, providing entertainment, alleviating boredom, and enhancing problem-solving abilities for a broad audience.</p>
-            <a href="https://github.com/mouad2023se/The-maze-project">View The Maze Project on GitHub</a>
+            <a href="https://github.com/mouad2023se/The-maze-project">
+                <button>View The Maze Project</button>
+            </a>
         </div>
     </section>
-    <section>
+    <section id="features" class="features">
         <div class="container">
-            <h2>About The Developer</h2>
-            <p>Hello! I'm Mouad, a passionate developer with a keen interest in creating engaging and educational software. My journey into the world of programming started with a curiosity to understand how things work, and it has evolved into a career dedicated to building meaningful projects like The Maze Project.</p>
-            <a href="https://github.com/mouad2023se">Visit My GitHub Profile</a>
+            <h2>Key Features</h2>
+            <div class="feature">
+                <img src="images/feature_image_1.jpg" alt="Feature 1">
+                <h3>Immersive 3D Environment</h3>
+                <p>Experience a fully immersive 3D environment transformed from a 2D map.</p>
+            </div>
+            <div class="feature">
+                <img src="images/feature_image_2.jpg" alt="Feature 2">
+                <h3>Challenging Puzzles</h3>
+                <p>Solve complex puzzles that test your problem-solving skills.</p>
+            </div>
+            <div class="feature">
+                <img src="images/feature_image_3.jpg" alt="Feature 3">
+                <h3>Interactive Gameplay</h3>
+                <p>Engage in interactive gameplay that keeps you entertained.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About The Project</h2>
+            <p>The Maze Project, titled "The Labyrinth," was inspired by my fascination with puzzles and problem-solving. It all started during my college years when I wanted to create a game that not only entertains but also stimulates the mind. This project is a part of my Portfolio Project for ALX, showcasing my skills and dedication to developing engaging software.</p>
+            <p>Timeline: The project began in early 2023 and has been a journey of continuous learning and improvement.</p>
+            <p>Connect with me:</p>
+            <ul>
+                <li><a href="https://github.com/mouad2023se">GitHub</a></li>
+                <li><a href="https://twitter.com/home">Twitter</a></li>
+            </ul>
+            <p>Check out the project repository: <a href="https://github.com/mouad2023se/The-maze-project">The Maze Project on GitHub</a></p>
         </div>
     </section>
 </body>
