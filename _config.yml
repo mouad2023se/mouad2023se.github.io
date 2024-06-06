@@ -1,3 +1,3 @@
-theme: jekyll-theme-minimal
-title: mouad2023se' homepage
-description: my project updates!
+title: The Maze Project: The Labyrinth
+description: A thrilling 3D maze game developed using SDL2 and ray casting techniques.
+theme: minima
