@@ -1,1 +1,2 @@
-# mouad2023se.github.io
+# The maze project
+
