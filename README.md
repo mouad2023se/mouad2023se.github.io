@@ -5,14 +5,10 @@ Welcome to my personal portfolio website! I am EL HARRAK MOUAD, a Full Stack Dev
 ## About Me
 I'm currently a software engineering student at ALX Africa. My fascination with how games are programmed led me to pursue a career in web development.
 
-## Projects
-### [The Maze Project](https://github.com/mouad2023se/The-maze-project)
-A thrilling 3D maze game developed using SDL2 and ray casting techniques.
-
 ## Contact
 - **Email**: elharrakmouad@gmail.com
 - **GitHub**: [mouad2023se](https://github.com/mouad2023se)
 - **LinkedIn**: [Mouad El Harrak](https://www.linkedin.com/in/mouad-el-harrak-2a2254147/)
 - **Twitter**: [4bd5dbeaed71412](https://twitter.com/4bd5dbeaed71412)
 
-Feel free to explore my [portfolio](https://mouad2023se.github.io) to learn more about my work and get in touch!
+
